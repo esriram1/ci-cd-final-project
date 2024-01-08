@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:  pyhton:2.9-slim
+    container:  pyhton:3.9-slim
     steps:
       - name: checkout
         uses: actions/checkout@v3
