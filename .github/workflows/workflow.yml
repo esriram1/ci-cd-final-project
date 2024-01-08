@@ -10,7 +10,7 @@ jobs:
     container:  pyhton:2.9-slim
     steps:
       - name: checkout
-        uses: actions/checout@v3
+        uses: actions/checkout@v3
         
       - name: Install dependencies
         run: |
